@@ -1,0 +1,98 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 28 abr 2024, 20:21:38
+    Author     : verga
+*/
+.container__en{
+	display: flex;
+	flex-direction: column
+	
+
+}
+.encabezado{
+	display: flex;
+}
+.en{
+	flex-direction: row;
+	text-align: center;
+	height: 30px;
+	width: 100%;
+	background-color:  #28b4c4 ;
+	color: #fff;
+	margin-top: 0px
+	px;
+}
+
+.titulo{
+	font-family:'oswald', sans-serif;
+	text-align: center;
+	width: 100%;
+	margin-top: -20px;
+	color:  #28b4c4 ;
+	background-image:url(https://st.depositphotos.com/1020070/57618/v/450/depositphotos_576182842-stock-illustration-realistic-soda-bubbles-background-water.jpg);
+
+}
+
+.logo{
+	text-align: center;
+	background-image:url(https://st.depositphotos.com/1020070/57618/v/450/depositphotos_576182842-stock-illustration-realistic-soda-bubbles-background-water.jpg);
+}
+.nav_ul {
+	display: flex;
+	background-color:  #045484;
+	height: 30px;
+	padding: 10px;
+}
+a{
+	color: #fff;
+}
+
+li{
+	width: 100%;
+	font-size: 1em;
+	padding: 5px;
+	
+}
+i{
+	color: #fff;
+	padding: 1px;
+}
+.articulo_1{
+	color: #000;
+	background-color:  #c4dcfc ;
+	padding: 10px;
+}
+
+li:hover> a{
+	color: #bba;
+
+}
+.set_galeria{
+	display: flex;
+	width: 600px;
+	height: 430px;
+	margin-left: 50px;
+}
+
+section img{
+	width: 10%;
+	flex-grow: 1;
+	object-fit: cover;
+	opacity: .8;
+	transition: .5s ease;
+}
+section img:hover{
+	cursor: crosshair;
+	width: 300px;
+	opacity: 1;
+	filter: contrast(120%);
+}
+h3{
+	background-color: #4c84bc  ;
+	text-align: center;
+	color: #fff;
+}
+
